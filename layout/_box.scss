@@ -1,0 +1,41 @@
+.box{
+    border-style: solid;
+    margin-right: 25px;
+    margin-top: 20px;
+    height: 500px;
+    width: 400px;
+    border-color: $bordercolor;
+    border-width: 0px;
+    border-radius: 0.375rem
+    h2{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    h4{
+    margin-left: 5%;
+    margin-top: 5%;
+    }  
+    p{
+    margin-left: 5%;
+    margin-top: 5%;
+    }
+    img{
+    width: 400px;
+    height: 200px;
+    }
+}
+
+.topbox { 
+    border-style: solid;
+    margin-right: 25px;
+    margin-top: 20px;
+    height: 900px;
+    width: 700px;
+    border-color:$bordercolor;
+    border-width: 2px;
+    border-radius: 0.375rem
+    img{
+    width: 800px;
+    height: 400px;
+}
+}

@@ -1,0 +1,22 @@
+.gobutton{
+    background-color: $buttoncolor;
+    height: 38px;
+    width: 51.5px;
+    border-radius: 6%;
+    color: $white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+button{
+    background-color: $buttoncolor;
+    height: 38px;
+    width: 122.45px;
+    border-radius: 6%;
+    color: $white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.box button{
+    margin-left: 5%;
+    margin-top: 5%;
+}

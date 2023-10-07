@@ -1,0 +1,14 @@
+.rightdivheader{
+    background-color:$divheader;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    height:50px;
+    width: 350px;
+    text-align: left;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 3%;
+    border-color: $white;
+    margin-top: 25px;
+}
