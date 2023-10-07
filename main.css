@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.box {
+  border-style: solid;
+  margin-right: 25px;
+  margin-top: 20px;
+  height: 500px;
+  width: 400px;
+  border-color: rgba(223, 220, 220, 0.688);
+  border-width: 0px;
+  border-radius: 0.375rem h2;
+  border-radius-margin-left: 5%;
+  border-radius-margin-top: 5%;
+}
+.box h4 {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.box p {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.box img {
+  width: 400px;
+  height: 200px;
+}
+
+.topbox {
+  border-style: solid;
+  margin-right: 25px;
+  margin-top: 20px;
+  height: 900px;
+  width: 700px;
+  border-color: rgba(223, 220, 220, 0.688);
+  border-width: 2px;
+  border-radius: 0.375rem img;
+  border-radius-width: 800px;
+  border-radius-height: 400px;
+}
+
+.gobutton {
+  background-color: rgb(14, 109, 252);
+  height: 38px;
+  width: 51.5px;
+  border-radius: 6%;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+
+button {
+  background-color: rgb(14, 109, 252);
+  height: 38px;
+  width: 122.45px;
+  border-radius: 6%;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+
+.box button {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.container {
+  margin-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+}
+
+.footer {
+  background-color: rgb(33, 37, 41);
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  padding-top: 2rem;
+}
+
+header {
+  height: 300px;
+  color: black;
+  background-color: rgb(248, 249, 250);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header h3 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input {
+  height: 38px;
+  width: 263px;
+}
+
+.leftdiv {
+  width: 70%;
+}
+
+.leftgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+nav {
+  height: 60px;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2%;
+}
+nav h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+nav a {
+  color: grey;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav ul {
+  display: flex;
+  cursor: pointer;
+}
+nav li {
+  margin-left: 12px;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #19BC9C;
+  cursor: pointer;
+}
+
+.rightdivheader {
+  background-color: rgb(248, 249, 250);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+  height: 50px;
+  width: 350px;
+  text-align: left;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 3%;
+  border-color: white;
+  margin-top: 25px;
+}/*# sourceMappingURL=main.css.map */
